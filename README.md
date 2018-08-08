@@ -1,7 +1,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/carlosedp/minecraft-server.svg)](https://hub.docker.com/r/carlosedp/minecraft-server/)
 [![Docker Stars](https://img.shields.io/docker/stars/carlosedp/minecraft-server.svg?maxAge=2592000)](https://hub.docker.com/r/carlosedp/minecraft-server/)
-[![GitHub Issues](https://img.shields.io/github/issues-raw/carlosedp/minecraft-server.svg)](https://github.com/carlosedp/minecraft-server/issues)
+[![GitHub Issues](https://img.shields.io/github/issues-raw/carlosedp/minecraft-server-arm64.svg)](https://github.com/carlosedp/minecraft-server-arm64/issues)
 
 This docker image provides a Minecraft Server image for ARM64 that will automatically download the latest stable
 version at startup. You can also run/upgrade to any specific version or the
