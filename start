@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ $(id -u) = 0 ]; then
+  if [[ -v UID && $UID != $(id -u) ]]; then
+    usermod -u $UID minecraft
+  fi
+  if [[ -v GID ]]; then
+    groupmod -g $GID minecraft
+  fi
+  su-exec minecraft:minecraft /start-configuration
+else
+  exec /start-configuration
+fi
