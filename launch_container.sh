@@ -9,6 +9,7 @@ docker run -d -it \
     -e TYPE=FORGE \
     -e FORGEVERSION=14.23.4.2705 \
     -e MEMORY=3G \
+    -e ALLOW_FLIGHT=TRUE
     --name mc \
     carlosedp/minecraft-server:arm64
 
