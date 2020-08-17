@@ -3,6 +3,15 @@
 [![Docker Stars](https://img.shields.io/docker/stars/carlosedp/minecraft-server.svg?maxAge=2592000)](https://hub.docker.com/r/carlosedp/minecraft-server/)
 [![GitHub Issues](https://img.shields.io/github/issues-raw/carlosedp/minecraft-server-arm64.svg)](https://github.com/carlosedp/minecraft-server-arm64/issues)
 
+
+The upstream repository and images at XXX now provides multiarch images for ARM and X86 architectures.
+
+Check https://hub.docker.com/r/itzg/minecraft-server/tags.
+
+This repo is archived.
+
+----------------------------------------------------------------------------------------------------------------
+
 This docker image provides a Minecraft Server image for ARM64 that will automatically download the latest stable
 version at startup. You can also run/upgrade to any specific version or the
 latest snapshot. See the *Versions* section below for more information.
