@@ -4,7 +4,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues-raw/carlosedp/minecraft-server-arm64.svg)](https://github.com/carlosedp/minecraft-server-arm64/issues)
 
 
-The upstream repository and images at XXX now provides multiarch images for ARM and X86 architectures.
+The upstream repository and images at https://github.com/itzg/docker-minecraft-server now provides multiarch images for ARM and X86 architectures.
 
 Check https://hub.docker.com/r/itzg/minecraft-server/tags.
 
